@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+#user-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#parameters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+    width: 90px;
+    height: 225px;
+    background-color: rgb(214, 207, 207);
+}
+#controls {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+
+    
+}
+
+#title-logo {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0;
+   
+}
+
+
+#grid-size {
+    width: 75px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+#warning {
+    width: 90px;
+    word-wrap: break-word;
+    color: red;
+    font-style: italic;
+    margin: 25px 10px;
+
+}
+#color {
+    width: 75px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+
+#opacity {
+    width: 75px;
+    margin-top: 5px;
+    background-color: black;
+
+}
+
+.btns {
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-color: rgb(237, 233, 233);
+
+}
+
+#start-btn:hover {
+    color: white;
+    background-color: green;
+}
+
+#clear-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#manual-btn:hover {
+    color: white;
+    background-color: rgb(216, 216, 86);
+}
+
+#undo-btn:hover {
+    color: white;
+    background-color: gray;
+}
+
+
+#div-container {
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 650px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.square {
+ background-color: white;
+ border: 1px solid rgb(237, 233, 233);
+}

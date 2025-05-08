@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nick's draw/sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 
 
 <body>
+<div id="user-area"> 
+    <div id="div-container">
 
+    </div>
+    <div id="inputs">
+        <div id="parameters">
+            <form>
+                <label for="grid-size">grid size:</label><br>
+                <input type="text" id="grid-size" name="grid-size"><br>
+                <label for="color">color:</label><br>
+                 <input type="color" id="color" name="color"><br>
+                 <label for="opacity">opacity:</label>
+                <input type="range" id="opacity" name="opacity" min="0" max="100" value="100">
+            </form>
+        </div>
+        <div id="controls">
+            <button class="btns" id="start-btn">start</button>
+            <button class="btns" id="clear-btn">clear</button>
+            <button class="btns" id="manual-btn">manual</button>
+            <button class="btns" id="undo-btn">undo</button>
+        </div>
+    </div>
+    <span id="warning"></span>
+    <div id="title-logo">
+        <span>d</span>
+        <p>r</p>
+        <p>a</p>
+        <p>w</p>
+        
+        <p>/</p>
+        
+        <p>s</p>
+        <p>k</p>
+        <p>e</p>
+        <p>t</p>
+        <p>c</p>
+        <p>h</p>
+    </div>
+</div>
 
 
 
